@@ -73,7 +73,7 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **It uses fully js**
-- **very html hard coding done**
+- **very little html hard coding done**
 - **It leverages semantic Html 5**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
