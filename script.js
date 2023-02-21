@@ -16,7 +16,7 @@ function updateBookList() {
     <ul class = 'booklst'>
       <li>${bookList[i].title}</li>
       <li> ${bookList[i].author}</li>
-        <button class ='btn' type="button" onclick="removeBook(${i})">Remove</button>
+        <button class ='btnr' type="button" onclick="removeBook(${i})">Remove</button>
       </li>
       <hr class='hr'>
     </ul>

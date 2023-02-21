@@ -3,8 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 .hr {
-  width: 100%;
+  width: 80%;
   margin-left: 0;
   margin-top: 0.5rem;
 }
@@ -19,9 +20,20 @@
   margin-top: 2rem;
 }
 
-.booklst .btn {
-  width: 30%;
+.booklst input {
+  width: 15rem;
   height: 1.5rem;
+  outline: none;
+}
+
+.booklst .btn {
+  width: 38%;
+  height: 1.5rem;
+}
+
+.booklst .btnr {
+  width: 5rem;
+  height: 2rem;
 }
 
 .booklst li {
@@ -32,14 +44,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 0.3rem;
-  width: fit-content;
+  width: 3rem;
   height: auto;
   margin-left: 0;
   margin-top: 1rem;
-  padding: 0.2rem;
+  padding: 0.4rem;
   cursor: pointer;
-}
-
-.addbtn button {
-  width: 20%;
 }
